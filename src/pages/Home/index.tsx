@@ -1,9 +1,13 @@
 import * as C from "./style";
 
+import NpsIndicator from "../../components/NpsIndicator";
+
 const Home = () => {
   return (
     <C.Container>
-      <C.Content></C.Content>
+      <C.Content>
+        <NpsIndicator />
+      </C.Content>
     </C.Container>
   );
 };
