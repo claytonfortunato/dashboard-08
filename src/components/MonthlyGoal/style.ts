@@ -5,10 +5,10 @@ export const Container = styled.div`
   height: 300px;
   background: ${(props) => props.theme.background.card};
   border-radius: 10px;
-  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 `;
 
 export const Image = styled.div``;

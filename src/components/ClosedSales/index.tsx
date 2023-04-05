@@ -5,6 +5,7 @@ import * as C from "./style";
 const ClosedSales = () => {
   return (
     <C.Container>
+      <h3>Vendas fechadas</h3>
       <C.Image>
         <img src={Progress} alt="" />
       </C.Image>

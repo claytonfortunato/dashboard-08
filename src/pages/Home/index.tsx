@@ -2,6 +2,7 @@ import * as C from "./style";
 
 import NpsIndicator from "../../components/NpsIndicator";
 import ClosedSales from "../../components/ClosedSales";
+import MonthlyGoal from "../../components/MonthlyGoal";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <C.Content>
         <NpsIndicator />
         <ClosedSales />
+        <MonthlyGoal />
       </C.Content>
     </C.Container>
   );
