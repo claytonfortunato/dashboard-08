@@ -1,7 +1,15 @@
-import React from "react";
+import Progress from "../../assets/img-progress/Ellipse 1 (1).png";
 
-const index = () => {
-  return <div>index</div>;
+import * as C from "./style";
+
+const ClosedSales = () => {
+  return (
+    <C.Container>
+      <C.Image>
+        <img src={Progress} alt="" />
+      </C.Image>
+    </C.Container>
+  );
 };
 
-export default index;
+export default ClosedSales;
