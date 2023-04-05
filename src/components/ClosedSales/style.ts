@@ -12,3 +12,13 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.div``;
+
+export const Frame = styled.div`
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+  p {
+    font-size: 14px;
+  }
+`;
