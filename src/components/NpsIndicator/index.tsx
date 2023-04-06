@@ -1,18 +1,23 @@
 import happyFace from "../../assets/happy-face.svg";
 
-import * as C from "./style";
+import { Container } from "./style";
 
-const index = () => {
+import { TextIndicator } from "../TextIndicator";
+import { Card } from "../Card";
+
+interface NpsIndicatorProps {
+  title: string;
+  score: number;
+}
+
+export function NpsIndicator({ title, score }: NpsIndicatorProps) {
   return (
-    <C.Container>
-      <C.ContainerIcon>
-        <h3>NPS geral</h3>
-        <img src={happyFace} alt="happy face icon" />
+    <Card title={title}>
+      <Container>
+        <img src={happyFace} alt="" />
         <p>Excelente!</p>
-      </C.ContainerIcon>
-      <p>NPS Score 75</p>
-    </C.Container>
+      </Container>
+      <TextIndicator title="NPS Score" value={score} />
+    </Card>
   );
-};
-
-export default index;
+}

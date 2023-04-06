@@ -1,8 +1,19 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
-
-export const Content = styled.div`
+export const Container = styled.div`
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.75rem;
+  max-width: 1280px;
+  width: 100%;
+`;
+
+export const Goals = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  row-gap: 3.75rem;
+  column-gap: 2rem;
 `;
