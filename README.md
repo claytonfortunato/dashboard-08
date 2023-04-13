@@ -27,7 +27,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
   
 ## 👾 Deploy
 
-
+[Dashboard](https://dashboard-08.vercel.app/)
 
 ## 🚀 Tecnologias
 
