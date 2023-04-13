@@ -13,6 +13,6 @@ export const Container = styled.div`
   }
 
   > p {
-    color: ${(props) => props.theme.text.success};
+    color: ${(props) => props.theme.text.sucess};
   }
 `;
